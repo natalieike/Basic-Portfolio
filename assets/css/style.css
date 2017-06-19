@@ -68,17 +68,38 @@ footer {
 
 .button {
 	border-left: 1px solid #cccccc;
-	font-size: 20px;
+	font-size: 18px;
 	color: #777777;
 	text-decoration: none;
 	padding-left: 10px;
 	padding-right: 10px;
 	}
 
+.button:active {
+    background-color: lightgrey;
+    color: #4aaaa5;
+    opacity: .5;
+}	
+
+.button:hover {
+    color: #4aaaa5;
+    opacity: .5;
+}	
+
 .icon {
 	width: 60px;
 	margin: 10px 5px 10px 5px;
 }
+
+.icon:active {
+  background-color: lightgrey;
+  border: 2px solid #4aaaa5;
+  opacity: .5;
+}	
+
+.icon:hover {
+	opacity: .75;
+}	
 
 .clearfix::after {
   content: "";
@@ -140,4 +161,48 @@ footer {
 	color: white;
 	width: 100%;
 	text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    border: 1px solid #dddddd; 
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid darkgrey;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 12px;
+    border: 1px solid #dddddd; 
+    outline: none;
+}
+
+textarea:focus {
+    border: 3px solid darkgrey;
+    outline: none;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
+
+input[type=submit]:active {
+    background-color: #4aaaa5;
+    opacity: .5;
 }

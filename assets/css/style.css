@@ -148,6 +148,15 @@ footer {
 	overflow: auto;
 }
 
+.portfolioItems:active {
+  background-color: lightgrey;
+  opacity: .5;
+}	
+
+.portfolioItems:hover {
+	opacity: .75;
+}	
+
 .portfolioImages {
 	width: 270px;
 }

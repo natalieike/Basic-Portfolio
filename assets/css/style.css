@@ -17,10 +17,6 @@ header {
 	width: 100%;
 }
 
-div {
-
-}
-
 section {
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
@@ -53,10 +49,6 @@ h2 {
 
 }
 
-a {
-
-}
-
 footer {
 	bottom: 0;
 	left: 0;
@@ -71,7 +63,7 @@ footer {
 
 .sticky {
 	position: fixed;
-
+	z-index: 100;
 }
 
 .button {
@@ -128,3 +120,24 @@ footer {
 	margin-left: 4%;
 }
 
+.portfolioItems {
+	float: left;
+	position: relative;
+	margin: 20px 10px;
+	overflow: auto;
+}
+
+.portfolioImages {
+	width: 270px;
+}
+
+.textOverlay {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 30px;
+	left: 0px;
+	padding: 20px;
+	color: white;
+	width: 100%;
+	text-align: center;
+}

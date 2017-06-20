@@ -126,6 +126,10 @@ footer {
 	padding: 20px;
 }
 
+#about {
+	border: none;
+}
+
 #mainBody {
 	width: 650px;
 	margin-left: 10%;
